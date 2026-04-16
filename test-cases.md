@@ -72,3 +72,21 @@
 - **Input:** Password with 13 characters
 - **Expected Result:**
   Rejected with error message
+
+  ## 🔹 Task 2 — Boundary Value Testing (Password Length)
+
+### TC_BV_01 – 7 Characters
+- Description: Below minimum boundary
+- Expected Result: Rejected, error message displayed
+
+### TC_BV_02 – 8 Characters
+- Description: Minimum boundary
+- Expected Result: Accepted
+
+### TC_BV_03 – 12 Characters
+- Description: Maximum boundary
+- Expected Result: Accepted
+
+### TC_BV_04 – 13 Characters
+- Description: Above maximum boundary
+- Expected Result: Rejected, error message displayed
